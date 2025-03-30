@@ -20,14 +20,15 @@ This project aims to enhance the voting process by integrating automated verific
 ## 🚀 Installation
 1. Clone the repository:
    ```sh
-   git clone 
+   git clone https://github.com/rajdeepdas108/r-v-f-s-a-v.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd voting-verification
+   cd r-v-f-s-a-v
    ```
 3. Install dependencies:
    ```sh
+   cd r-v-f-s-a-v
    npm install  # For Node.js
    pip install -r requirements.txt  # For Python-based services
    ```
@@ -51,7 +52,7 @@ This project aims to enhance the voting process by integrating automated verific
 ## 🤝 Contributing
 We welcome contributions! To contribute:
 1. 🍴 Fork the repository.
-2. 🌱 Create a new branch (``).
+2. 🌱 Create a new branch (`feature-xyz`).
 3. 💾 Commit your changes.
 4. 🚀 Push to your branch and submit a Pull Request.
 
@@ -60,3 +61,17 @@ This project is licensed under the MIT License.
 
 ## 📧 Contact
 For inquiries, reach out at [drajdeep00108@gmail.com](mailto:drajdeep00108@gmail.com).
+
+## File Structure
+voting-system/
+├── contracts/
+│   └── VotingContract.sol        # Smart contract code
+├── src/
+│   ├── blockchain_handler.py     # Blockchain interactions
+│   ├── zk_proofs.py              # Zero-knowledge proofs
+│   ├── biometric_auth.py         # Facial recognition
+│   ├── encryption_manager.py     # Vote encryption/decryption
+│   ├── merkle_manager.py         # Result verification
+│   ├── system_integration.py     # Main system logic
+│   └── main.py                   # Entry point
+└── requirements.txt              # Dependencies
