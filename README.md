@@ -62,7 +62,8 @@ This project is licensed under the MIT License.
 ## 📧 Contact
 For inquiries, reach out at [drajdeep00108@gmail.com](mailto:drajdeep00108@gmail.com).
 
-## File Structure
+## 📂 File Structure
+```
 voting-system/
 ├── contracts/
 │   └── VotingContract.sol        # Smart contract code
@@ -75,3 +76,4 @@ voting-system/
 │   ├── system_integration.py     # Main system logic
 │   └── main.py                   # Entry point
 └── requirements.txt              # Dependencies
+```
