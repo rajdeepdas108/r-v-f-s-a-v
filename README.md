@@ -65,15 +65,27 @@ For inquiries, reach out at [drajdeep00108@gmail.com](mailto:drajdeep00108@gmail
 ## 📂 File Structure
 ```
 voting-system/
-├── contracts/
-│   └── VotingContract.sol        # Smart contract code
-├── src/
-│   ├── blockchain_handler.py     # Blockchain interactions
-│   ├── zk_proofs.py              # Zero-knowledge proofs
-│   ├── biometric_auth.py         # Facial recognition
-│   ├── encryption_manager.py     # Vote encryption/decryption
-│   ├── merkle_manager.py         # Result verification
-│   ├── system_integration.py     # Main system logic
-│   └── main.py                   # Entry point
-└── requirements.txt              # Dependencies
+├── api/
+│   ├── app.py                 # Flask backend
+│   └── requirements.txt
+├── blockchain/
+│   ├── contracts/
+│   │   └── VotingContract.sol
+│   └── src/
+│       ├── blockchain_handler.py
+│       ├── zk_proofs.py
+│       ├── biometric_auth.py
+│       ├── encryption_manager.py
+│       ├── merkle_manager.py
+│       ├── system_integration.py
+│       └── main.py
+├── static/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── app.js
+│   └── images/
+├── templates/
+│   └── index.html
+└── README.md
 ```
